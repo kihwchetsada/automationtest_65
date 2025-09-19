@@ -1,0 +1,425 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - banner [ref=e6]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - heading "Yahoo Home" [level=1] [ref=e12]
+            - link "Yahoo Home" [ref=e13] [cursor=pointer]:
+              - /url: https://www.yahoo.com/
+              - img [ref=e14] [cursor=pointer]
+              - text: Yahoo Home
+          - search [ref=e17]:
+            - generic [ref=e18]: Search query
+            - combobox "Search query" [active] [ref=e19]
+            - generic:
+              - img
+            - button "Search" [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+        - navigation [ref=e25]:
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "News" [ref=e28] [cursor=pointer]:
+                - /url: https://www.yahoo.com/
+            - listitem [ref=e29]:
+              - link "Finance" [ref=e30] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/
+            - listitem [ref=e31]:
+              - link "Sports" [ref=e32] [cursor=pointer]:
+                - /url: https://sports.yahoo.com/
+            - listitem [ref=e33]:
+              - button "More" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35] [cursor=pointer]: More
+                - img [ref=e36] [cursor=pointer]
+        - toolbar [ref=e38]:
+          - link "Check your mail" [ref=e42] [cursor=pointer]:
+            - /url: https://mail.yahoo.com/
+            - img [ref=e43] [cursor=pointer]
+            - generic [ref=e46] [cursor=pointer]: Mail
+          - link "Sign in" [ref=e50] [cursor=pointer]:
+            - /url: https://login.yahoo.com/?.lang=en-US&src=homepage&.done=https%3A%2F%2Fwww.yahoo.com%2F&pspid=2023538075&activity=ybar-signin
+  - generic:
+    - heading "Skip navigation links" [level=2] [ref=e51]
+    - list:
+      - listitem:
+        - link "Skip to main content" [ref=e52] [cursor=pointer]:
+          - /url: "#Main"
+      - listitem:
+        - link "Skip to sidebar" [ref=e53] [cursor=pointer]:
+          - /url: "#Aside"
+  - generic [ref=e55]:
+    - iframe [ref=e59]:
+      - iframe [ref=f1e2]:
+        - generic [ref=f2e5]:
+          - generic [ref=f2e8] [cursor=pointer]:
+            - link "Image for Taboola Advertising Unit":
+              - /url: https://www.icmarkets.com/global/en/trading-markets/indices
+              - img "Image for Taboola Advertising Unit" [ref=f2e10] [cursor=pointer]
+            - link "Global Indices Are on the Move — Time to Trade! Dow, DAX, FTSE, S&P and more — trade the world’s biggest indices with premium tools, zero commission and fast execution. Trading derivatives involves high risk to your capital. IC Markets in Taboola advertising section Learn More" [ref=f2e12] [cursor=pointer]:
+              - /url: https://www.icmarkets.com/global/en/trading-markets/indices
+              - generic [ref=f2e13] [cursor=pointer]:
+                - link "Global Indices Are on the Move — Time to Trade!" [ref=f2e14] [cursor=pointer]
+                - generic [ref=f2e15] [cursor=pointer]: Dow, DAX, FTSE, S&P and more — trade the world’s biggest indices with premium tools, zero commission and fast execution. Trading derivatives involves high risk to your capital.
+                - generic [ref=f2e16] [cursor=pointer]:
+                  - link "IC Markets in Taboola advertising section" [ref=f2e17] [cursor=pointer]: IC Markets
+                  - button "Learn More" [ref=f2e19] [cursor=pointer]
+          - link "Taboola Disclosure" [ref=f2e21] [cursor=pointer]:
+            - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoohomepage-headerbidding&utm_medium=referral&utm_content=Viper_970x250_1x1_Stream:yahoo.com_P1635758_S1635758_TYahoo Homepage - Main - Desktop - Top_Center_W970_H250_N1_TB:"
+    - main [ref=e60]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "top stories" [level=2] [ref=e64]
+          - link "Senate confirms 48 of Trump's nominees at once after changing the chamber's rules" [ref=e69] [cursor=pointer]:
+            - /url: /news/articles/senate-confirms-48-trumps-nominees-210416446.html
+            - heading "Senate confirms 48 of Trump's nominees at once after changing the chamber's rules" [level=3] [ref=e70] [cursor=pointer]: Senate confirms 48 of Trump's nominees at once after changing the chamber's rules
+            - paragraph [ref=e73] [cursor=pointer]: The Senate has confirmed 48 of the president's nominees at once, voting for the first time under new rules to begin clearing a backlog of executive branch positions.
+            - paragraph [ref=e74] [cursor=pointer]: Read More »
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - 'link "''It was shocking'': Police cameras tracked a driver 526 times in 4 months, lawsuit says" [ref=e78] [cursor=pointer]':
+              - /url: /news/articles/police-cameras-tracked-one-driver-090000185.html
+              - 'heading "''It was shocking'': Police cameras tracked a driver 526 times in 4 months, lawsuit says" [level=3] [ref=e80] [cursor=pointer]'
+          - listitem [ref=e81]:
+            - link "Barack Obama reacts to Jimmy Kimmel's suspension over Charlie Kirk comments" [ref=e82] [cursor=pointer]:
+              - /url: /news/articles/barack-obama-reacts-jimmy-kimmel-142505971.html
+              - heading "Barack Obama reacts to Jimmy Kimmel's suspension over Charlie Kirk comments" [level=3] [ref=e84] [cursor=pointer]
+          - listitem [ref=e85]:
+            - 'link "''Hundreds of smoking guns'': Overloaded skies set stage for deadly D.C. collision" [ref=e86] [cursor=pointer]':
+              - /url: /news/articles/crush-flights-routinely-strained-national-223253098.html
+              - 'heading "''Hundreds of smoking guns'': Overloaded skies set stage for deadly D.C. collision" [level=3] [ref=e88] [cursor=pointer]'
+          - listitem [ref=e89]:
+            - link "Bella Hadid's mom shares emotional Instagram post while daughter is hospitalized" [ref=e90] [cursor=pointer]:
+              - /url: /entertainment/celebrity/article/bella-hadid-hospitalized-for-lyme-disease-after-countless-setbacks-mom-yolanda-says-in-tribute-to-warrior-model-daughter-210234271.html
+              - heading "Bella Hadid's mom shares emotional Instagram post while daughter is hospitalized" [level=3] [ref=e92] [cursor=pointer]
+          - listitem [ref=e93]:
+            - link "How the FBI director's remarks during House grilling spurred a Krispy Kreme rally" [ref=e94] [cursor=pointer]:
+              - /url: /finance/news/fbi-director-just-spurred-brief-231429882.html
+              - heading "How the FBI director's remarks during House grilling spurred a Krispy Kreme rally" [level=3] [ref=e96] [cursor=pointer]
+      - generic [ref=e97]:
+        - heading "Stories for you" [level=2] [ref=e102]
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link [ref=e107] [cursor=pointer]:
+                - /url: /finance/news/starbucks-ceo-says-coffee-chain-154153525.html
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - strong [ref=e110]: Business
+                  - generic [ref=e111]: ·
+                  - generic [ref=e112]: Fortune
+                - heading "Starbucks CEO says the coffee chain won’t lose its cash-strapped consumers because it’s on its way to being a ‘world-class customer service’ company" [level=3] [ref=e113]:
+                  - link "Starbucks CEO says the coffee chain won’t lose its cash-strapped consumers because it’s on its way to being a ‘world-class customer service’ company" [ref=e114] [cursor=pointer]:
+                    - /url: /finance/news/starbucks-ceo-says-coffee-chain-154153525.html
+                    - text: Starbucks CEO says the coffee chain won’t lose its cash-strapped consumers because it’s on its way to being a ‘world-class customer service’ company
+                - paragraph [ref=e116]: Brian Niccol said Starbucks’ quality and customer service is worth the cost of a $6 or $7 latte.
+                - generic [ref=e117]:
+                  - img [ref=e118] [cursor=pointer]
+                  - generic "139 comments" [ref=e120]: "139"
+                  - generic [ref=e121]: ·
+                  - generic [ref=e122]: 3 min read
+          - generic [ref=e125]:
+            - generic [ref=e131]:
+              - generic:
+                - figure
+                - generic [ref=e132] [cursor=pointer]:
+                  - link "Image for Taboola Advertising Unit":
+                    - /url: https://www.icmarkets.com/global/en/trade-gold
+                    - img "Image for Taboola Advertising Unit" [ref=e134] [cursor=pointer]
+                  - link "IC Markets in Taboola advertising section · Taboola Disclosure This Could Be the Best Time to Trade Gold in 5 Years Access the gold market with leverage up 1:1000 and tight spreads. Fast signup. No hidden fees. Trading derivatives involves high risk to your capital." [ref=e136] [cursor=pointer]:
+                    - /url: https://www.icmarkets.com/global/en/trade-gold
+                    - generic [ref=e137] [cursor=pointer]:
+                      - generic [ref=e138] [cursor=pointer]:
+                        - link "IC Markets in Taboola advertising section" [ref=e139] [cursor=pointer]: IC Markets
+                        - generic [ref=e140] [cursor=pointer]: ·
+                        - link "Taboola Disclosure" [ref=e142] [cursor=pointer]:
+                          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-home&utm_medium=referral&utm_content=stream-d:taboola-stream-2:"
+                          - generic [ref=e143] [cursor=pointer]: Ad
+                      - link "This Could Be the Best Time to Trade Gold in 5 Years" [ref=e144] [cursor=pointer]
+                      - generic [ref=e145] [cursor=pointer]: Access the gold market with leverage up 1:1000 and tight spreads. Fast signup. No hidden fees. Trading derivatives involves high risk to your capital.
+            - button "View ad options" [ref=e147] [cursor=pointer]:
+              - img [ref=e148] [cursor=pointer]
+          - listitem [ref=e150]:
+            - generic [ref=e151]:
+              - link [ref=e153] [cursor=pointer]:
+                - /url: /news/articles/man-dies-blunt-impact-injuries-215842121.html
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - strong [ref=e156]: US
+                  - generic [ref=e157]: ·
+                  - generic [ref=e158]: CNN
+                - heading "Man dies from blunt impact injuries after riding coaster at new Florida amusement park Epic Universe" [level=3] [ref=e159]:
+                  - link "Man dies from blunt impact injuries after riding coaster at new Florida amusement park Epic Universe" [ref=e160] [cursor=pointer]:
+                    - /url: /news/articles/man-dies-blunt-impact-injuries-215842121.html
+                    - text: Man dies from blunt impact injuries after riding coaster at new Florida amusement park Epic Universe
+                - paragraph [ref=e162]: A man who was unresponsive after riding a roller coaster at Universal Orlando Resort’s newest park died from blunt impact injuries, a medical examiner said Thursday.
+                - generic [ref=e163]:
+                  - img [ref=e164] [cursor=pointer]
+                  - generic "90 comments" [ref=e166]: "90"
+                  - generic [ref=e167]: ·
+                  - generic [ref=e168]: 3 min read
+          - listitem [ref=e169]:
+            - generic [ref=e170]:
+              - link [ref=e172] [cursor=pointer]:
+                - /url: /finance/news/restaurant-chain-closes-half-locations-211040257.html
+              - generic [ref=e173]:
+                - generic [ref=e174]:
+                  - strong [ref=e175]: Business
+                  - generic [ref=e176]: ·
+                  - generic [ref=e177]: MassLive
+                - heading "Restaurant chain closes half its locations after filing for bankruptcy" [level=3] [ref=e178]:
+                  - link "Restaurant chain closes half its locations after filing for bankruptcy" [ref=e179] [cursor=pointer]:
+                    - /url: /finance/news/restaurant-chain-closes-half-locations-211040257.html
+                    - text: Restaurant chain closes half its locations after filing for bankruptcy
+                - paragraph [ref=e181]: This popular restaurant chain is closing half its locations after filing for Chapter 11 bankruptcy protection.
+                - generic [ref=e182]:
+                  - img [ref=e183] [cursor=pointer]
+                  - generic "1 comment" [ref=e185]: "1"
+                  - generic [ref=e186]: ·
+                  - generic [ref=e187]: 1 min read
+          - listitem [ref=e188]:
+            - generic [ref=e189]:
+              - link [ref=e191] [cursor=pointer]:
+                - /url: /autos/safety-and-recalls/articles/toyota-recalling-590k-vehicles-one-170539274.html
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - strong [ref=e194]: Business
+                  - generic [ref=e195]: ·
+                  - generic [ref=e196]: NJ.com
+                - 'heading "Toyota recalling 590K vehicles: If you have one, bring it to your dealer immediately" [level=3] [ref=e197]':
+                  - 'link "Toyota recalling 590K vehicles: If you have one, bring it to your dealer immediately" [ref=e198] [cursor=pointer]':
+                    - /url: /autos/safety-and-recalls/articles/toyota-recalling-590k-vehicles-one-170539274.html
+                    - text: "Toyota recalling 590K vehicles: If you have one, bring it to your dealer immediately"
+                - paragraph [ref=e200]: Toyota is recalling more than 590,000 vehicles due to this malfunction
+                - generic [ref=e201]:
+                  - img [ref=e202] [cursor=pointer]
+                  - generic "26 comments" [ref=e204]: "26"
+                  - generic [ref=e205]: ·
+                  - generic [ref=e206]: 1 min read
+          - listitem [ref=e207]:
+            - generic [ref=e208]:
+              - link [ref=e210] [cursor=pointer]:
+                - /url: /news/articles/complete-scam-woman-ditches-ac-160000208.html
+              - generic [ref=e211]:
+                - generic [ref=e212]:
+                  - strong [ref=e213]: US
+                  - generic [ref=e214]: ·
+                  - generic [ref=e215]: Daily Dot
+                - 'heading "“Complete scam”: Woman ditches AC, buys blackout curtains, unplugs everything—her bill jumps from $300 to $360" [level=3] [ref=e216]':
+                  - 'link "“Complete scam”: Woman ditches AC, buys blackout curtains, unplugs everything—her bill jumps from $300 to $360" [ref=e217] [cursor=pointer]':
+                    - /url: /news/articles/complete-scam-woman-ditches-ac-160000208.html
+                    - text: "“Complete scam”: Woman ditches AC, buys blackout curtains, unplugs everything—her bill jumps from $300 to $360"
+                - paragraph [ref=e219]: "\"I'm 7 months pregnant and we’re on the third floor,\" she told the Daily Dot."
+                - generic [ref=e220]:
+                  - img [ref=e221] [cursor=pointer]
+                  - generic "267 comments" [ref=e223]: "267"
+                  - generic [ref=e224]: ·
+                  - generic [ref=e225]: 3 min read
+          - generic [ref=e228]:
+            - generic [ref=e234]:
+              - generic:
+                - figure
+                - generic [ref=e235] [cursor=pointer]:
+                  - link "Image for Taboola Advertising Unit":
+                    - /url: https://www.icmarkets.com/global/en/trade-gold
+                    - img "Image for Taboola Advertising Unit" [ref=e237] [cursor=pointer]
+                  - link "IC Markets in Taboola advertising section · Taboola Disclosure Gold Is Surging in 2025 — Smart Traders Are Already In Don't miss the gold momentum. Trade CFDs with leverage and zero commission on our platform.Trading derivatives involves high risk to your capital." [ref=e239] [cursor=pointer]:
+                    - /url: https://www.icmarkets.com/global/en/trade-gold
+                    - generic [ref=e240] [cursor=pointer]:
+                      - generic [ref=e241] [cursor=pointer]:
+                        - link "IC Markets in Taboola advertising section" [ref=e242] [cursor=pointer]: IC Markets
+                        - generic [ref=e243] [cursor=pointer]: ·
+                        - link "Taboola Disclosure" [ref=e245] [cursor=pointer]:
+                          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-home&utm_medium=referral&utm_content=stream-d:taboola-stream-7:"
+                          - generic [ref=e246] [cursor=pointer]: Ad
+                      - link "Gold Is Surging in 2025 — Smart Traders Are Already In" [ref=e247] [cursor=pointer]
+                      - generic [ref=e248] [cursor=pointer]: Don't miss the gold momentum. Trade CFDs with leverage and zero commission on our platform.Trading derivatives involves high risk to your capital.
+            - button "View ad options" [ref=e250] [cursor=pointer]:
+              - img [ref=e251] [cursor=pointer]
+          - listitem [ref=e253]:
+            - generic [ref=e254]:
+              - link [ref=e256] [cursor=pointer]:
+                - /url: /autos/people-and-culture/articles/watch-audi-jump-open-draw-151000955.html
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - strong [ref=e259]: US
+                  - generic [ref=e260]: ·
+                  - generic [ref=e261]: Road & Track
+                - heading "Watch This Audi Jump an Open Draw Bridge in Seattle and Leave the Cops Behind" [level=3] [ref=e262]:
+                  - link "Watch This Audi Jump an Open Draw Bridge in Seattle and Leave the Cops Behind" [ref=e263] [cursor=pointer]:
+                    - /url: /autos/people-and-culture/articles/watch-audi-jump-open-draw-151000955.html
+                    - text: Watch This Audi Jump an Open Draw Bridge in Seattle and Leave the Cops Behind
+                - paragraph [ref=e265]: Seattle police officers were following an allegedly stolen Audi Q5 on September 17 when the driver broke through a barrier and jumped an open drawbridge, leaving authorities behind.
+                - generic [ref=e266]:
+                  - img [ref=e267] [cursor=pointer]
+                  - generic "277 comments" [ref=e269]: "277"
+                  - generic [ref=e270]: ·
+                  - generic [ref=e271]: 2 min read
+          - listitem [ref=e272]:
+            - generic [ref=e273]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /news/articles/french-president-wife-present-evidence-235947115.html
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - strong [ref=e278]: World
+                  - generic [ref=e279]: ·
+                  - generic [ref=e280]: The Advocate
+                - heading "French president and wife to present evidence in court that first lady is a cisgender woman" [level=3] [ref=e281]:
+                  - link "French president and wife to present evidence in court that first lady is a cisgender woman" [ref=e282] [cursor=pointer]:
+                    - /url: /news/articles/french-president-wife-present-evidence-235947115.html
+                    - text: French president and wife to present evidence in court that first lady is a cisgender woman
+                - paragraph [ref=e284]: This will come in a defamation suit Emmanuel and Brigitte Macron filed against right-wing influencer Candace Owens, who claimed Brigitte was born with male sex characteristics and is therefore transgender.
+                - generic [ref=e285]:
+                  - img [ref=e286] [cursor=pointer]
+                  - generic "343 comments" [ref=e288]: "343"
+                  - generic [ref=e289]: ·
+                  - generic [ref=e290]: 3 min read
+          - listitem [ref=e291]
+      - generic [ref=e342]:
+        - generic [ref=e343]:
+          - img [ref=e346]
+          - generic [ref=e348]: Something went wrong. Try again.
+        - generic [ref=e349]:
+          - link "Refresh Page" [ref=e350] [cursor=pointer]:
+            - /url: /
+          - button "Close" [ref=e351] [cursor=pointer]:
+            - img [ref=e353] [cursor=pointer]
+    - complementary [ref=e355]:
+      - generic [ref=e357]:
+        - generic [ref=e360]:
+          - heading "Trending Now" [level=3] [ref=e363] [cursor=pointer]
+          - generic [ref=e365]:
+            - generic [ref=e366]:
+              - link "1. Jimmy Kimmel" [ref=e368] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Jimmy+Kimmel&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e369] [cursor=pointer]: "1."
+                - generic [ref=e370] [cursor=pointer]: Jimmy Kimmel
+              - link "2. Melania Trump" [ref=e372] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Melania+Trump&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e373] [cursor=pointer]: "2."
+                - generic [ref=e374] [cursor=pointer]: Melania Trump
+              - link "3. Thursday Night Football" [ref=e376] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Thursday+Night+Football&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e377] [cursor=pointer]: "3."
+                - generic [ref=e378] [cursor=pointer]: Thursday Night Football
+              - link "4. Epic Universe Death" [ref=e380] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Epic+Universe+Death&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e381] [cursor=pointer]: "4."
+                - generic [ref=e382] [cursor=pointer]: Epic Universe Death
+              - link "5. Helicopter Crash Washington" [ref=e384] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Helicopter+Crash+Washington&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e385] [cursor=pointer]: "5."
+                - generic [ref=e386] [cursor=pointer]: Helicopter Crash Washington
+            - generic [ref=e387]:
+              - link "6. National Cheeseburger Day" [ref=e389] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=National+Cheeseburger+Day&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e390] [cursor=pointer]: "6."
+                - generic [ref=e391] [cursor=pointer]: National Cheeseburger Day
+              - link "7. Disney Boycott" [ref=e393] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Disney+Boycott&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e394] [cursor=pointer]: "7."
+                - generic [ref=e395] [cursor=pointer]: Disney Boycott
+              - link "8. America's Got Talent" [ref=e397] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=America%27s+Got+Talent&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e398] [cursor=pointer]: "8."
+                - generic [ref=e399] [cursor=pointer]: America's Got Talent
+              - link "9. D4vd" [ref=e401] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=D4vd&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e402] [cursor=pointer]: "9."
+                - generic [ref=e403] [cursor=pointer]: D4vd
+              - link "10. Pennsylvania Shooting" [ref=e405] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Pennsylvania+Shooting&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e406] [cursor=pointer]: "10."
+                - generic [ref=e407] [cursor=pointer]: Pennsylvania Shooting
+        - iframe [ref=e410]:
+          - iframe [ref=f3e2]:
+            - generic [ref=f4e8] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=f4e9] [cursor=pointer]:
+                - /url: https://www.icmarkets.com/global/en/trade-gold
+                - img "Image for Taboola Advertising Unit" [ref=f4e11] [cursor=pointer]
+              - link "Gold Is Surging in 2025 — Smart Traders Are Already In IC Markets in Taboola advertising section Learn More" [ref=f4e13] [cursor=pointer]:
+                - /url: https://www.icmarkets.com/global/en/trade-gold
+                - generic [ref=f4e14] [cursor=pointer]:
+                  - link "Gold Is Surging in 2025 — Smart Traders Are Already In" [ref=f4e15] [cursor=pointer]
+                  - link "IC Markets in Taboola advertising section" [ref=f4e16] [cursor=pointer]: IC Markets
+                  - button "Learn More" [ref=f4e18] [cursor=pointer]
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - heading "Weather" [level=3] [ref=e416]
+            - generic [ref=e418]:
+              - heading "Surin" [level=4] [ref=e419]
+              - button "View your Locations" [ref=e421] [cursor=pointer]:
+                - img [ref=e422] [cursor=pointer]
+                - generic [ref=e424] [cursor=pointer]: View your Locations
+          - generic [ref=e425]:
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - generic [ref=e428]: Today
+                - generic [ref=e430]: Rain with a high of 86 °F (30 °C) and a 69% chance of precipitation. Winds variable at 7 to 9 mph (11.3 to 14.5 kph).
+                - generic [ref=e431]:
+                  - generic [ref=e432]:
+                    - text: "86"
+                    - generic [ref=e433]: °
+                  - generic [ref=e434]:
+                    - text: "75"
+                    - generic [ref=e435]: °
+              - generic [ref=e436]:
+                - generic [ref=e437]: Sat
+                - generic [ref=e439]: Showers today with a high of 88 °F (31.1 °C) and a low of 75 °F (23.9 °C). There is a 54% chance of precipitation.
+                - generic [ref=e440]:
+                  - generic [ref=e441]:
+                    - text: "88"
+                    - generic [ref=e442]: °
+                  - generic [ref=e443]:
+                    - text: "75"
+                    - generic [ref=e444]: °
+              - generic [ref=e445]:
+                - generic [ref=e446]: Sun
+                - generic [ref=e448]: Showers today with a high of 89 °F (31.7 °C) and a low of 76 °F (24.4 °C). There is a 54% chance of precipitation.
+                - generic [ref=e449]:
+                  - generic [ref=e450]:
+                    - text: "89"
+                    - generic [ref=e451]: °
+                  - generic [ref=e452]:
+                    - text: "76"
+                    - generic [ref=e453]: °
+              - generic [ref=e454]:
+                - generic [ref=e455]: Mon
+                - generic [ref=e457]: Thunderstorms today with a high of 85 °F (29.4 °C) and a low of 75 °F (23.9 °C). There is a 67% chance of precipitation.
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - text: "85"
+                    - generic [ref=e460]: °
+                  - generic [ref=e461]:
+                    - text: "75"
+                    - generic [ref=e462]: °
+            - link "See more AccuWeather" [ref=e463] [cursor=pointer]:
+              - /url: https://www.yahoo.com/news/weather/forecast/12756525
+              - text: See more
+              - img "AccuWeather" [ref=e465] [cursor=pointer]
+        - iframe [ref=e478]:
+          - generic [ref=f5e1]:
+            - link [ref=f5e2] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjssibZOOGafbGMlquxErShDTnv-TdTGnqj03xSAmTTGncR9nRAJ0a1JVmKnYCtIsOLzpbXl1V02gA-ltmsTPPocu09OUeEesViPCrMOKOlZyvT7Aeq8jZA9c7gLYnDDO8rq3U42KKMUwUMlRZ6czs2kVPNWPT6m1FhG23zGzew1gXBAqSBgqST5ZzF8jK1OS2ARlbBW5sNWGyP7nFUG7vYi6vLShSQb5hYdqc9f44A8ZFrkI2XhEumW73Jkv46lmbM_chT1uFy4PgnIfUhBq6rDbSUZ5z7Iutba8dzj_GAi48jnH2lepOBKEg0momo9uoG7nQ52clbIEW3LRXz0XSIJg8PrDSIzf1hS3XxU-ZaM8oUPgmfAhRueaDBdJjVHfZzAwkDQw4eKg0RYAh4d-_N7edB-Ibjw5SYVurRM1Vijjw3Kox0iMXJqQUQ_UgA&sai=AMfl-YSE5diFZ58LZqiZoV9GXnPc1Ugilx_fNQL8oml4cKEJyVTMmg4k6Vb8h_kniA50O42wvajKHj0nHIh6QN49bVB1ySPVE0twsZYlLpQUOnm00HHOH5fbbTJ6I5kWxoOJ0QHMh7gJ8uBGj8pQWGJNbVC6Ov63W-yIaBEZkbxGO7SQG0buv0gAflPh4LNdCuuyPPAiWrS9MCWzhBsvdohLg0mzbpJfqAs9e-Y8u8AaiwrjX1UZhQ_-jp-ItE3xkmFo_R3aYJHL_I8OZtm0Bt4Y-Ctc5NxUjv0&sig=Cg0ArKJSzLBAvekrl-Z1&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://yfinance.onelink.me/3068494570%3Fpid%3Dfiller%26c%3DUS_Acquisition_YMktg_337__YahooFinanceAppInstall2025INTL_XYF%26af_sub1%3DAcquisition%26af_sub2%3DUS_YMktg%26af_sub3%3D%26af_sub4%3D100002542%26af_sub5%3DStayAheadV2NoButton__Static_300x250%26af_c_id%3D337
+            - img [ref=f5e6] [cursor=pointer]
+            - button [ref=f5e8] [cursor=pointer]:
+              - img [ref=f5e9] [cursor=pointer]
+        - generic [ref=e487]:
+          - iframe [ref=e490]:
+            - generic [ref=f6e1]:
+              - link [ref=f6e2] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjssu2sgzCh2ohYz4PYNHfYWyLYNJj2K8YqPsTjY4TysRHarFEHgvZ6l83pa1n0goSCH1JikZwx5sXmPGzA9OAuYVtj29qtVSAyk-ezwItcpY3GNMV9nlisprhUsEjP1b8zaoKYyrXlLKhH9c56qZ0V3s23Yf_Bco-f02wx1VorvmOKdREsnrxl155EC7-37lAh5LyWqO48HPlh6LEOhvfW4Ha7K1B_f_aI2toHcZFuSwUE1s66Gh6C0itKrWLjc0xVdV-f6SaICK-aHLq8MbS5yo9RqozkMsEKvdNOXPJ7v1yZcX-DIzSOfjkHz4dzBwAU_0lOHB8rstbrfKRhv9RU4m_nZEyaz_kOf9APC3WUoj3zhrHL8sJWS_upyNxka9Lqz2Q4xHF48-_esS0wDFAC1ATKUU3ixZcZtJ6Q0gbMHgPf1xmCwdmS8AGddgchm_YEkZ&sai=AMfl-YRkdcb6rJAD71aZMWARkdV-vTokOfbvp6gbqW6FTqasu6RI1ODElYZlBFwEiEpNbRYgrgkjmgbZ81gMp-H_iHt9kpUDr6B8SdxCavuiHP_UveIqYBbnQdlWNXDslzLGSyI4tJuWsYSJZ3wBEXKUiF2BvxHk8KOfqGjs5RPMMc0iRiyqCfC_B9kl-ac-MY5KXegsJw42N5Y1lVvmNWnnsY8iuBR5s-Z7Rgc1IO1--MsqQXoTppgK7EpvO_hTurquOan0QfCkExBuJgILPcGGLcIOI1ZZHt4&sig=Cg0ArKJSzEvk1N556gbM&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://news.yahoo.com/newsletters/the-yodel/%3Fncid%3D100001038
+              - img [ref=f6e6] [cursor=pointer]
+              - button [ref=f6e8] [cursor=pointer]:
+                - img [ref=f6e9] [cursor=pointer]
+          - iframe [ref=e493]:
+            - generic [ref=f7e1]:
+              - link [ref=f7e2] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsv8wNSzfZZStAJP28NkcC3FaPPWiHAbTRTS60I5irQg6Um-aPWOsRkedMyxKGfeDDmxBLwsyaEC702W-oUmQRxgdTSqyCeEPBxfJNNaOUpN8sXzfQIkKzNKx8OzCh_qChwCQ9Qhq_dGc25KXcOYc2tDkNklsKMTcQRUH3fAt-fdwN61inDLYmYxC1emZ5Wof3nAVZa_zaxCGqm4UAaRjWECuainOzdIkKdL4ggqhCojgkBsfZwwAMgqH1I6-gVigQmVHeIA_aA2jzefTEXGf6qOnU8n1XVgLn0ZB_GoLThM6bbTLc8ILurxLhtyuJR225LCGUoClAzw-Xp__9MTrZpjHkRc0srJt3ZwzGBM0SAiuRGqrzQ7xbV4qsNdW24BAxPxkFrSPzgw5hYF4zvxRQ__X2zvAQsFGtnJ9QhrSm1Cupej8HNwX-xJUL3uSaNJTWEx&sai=AMfl-YQe0hS16LC3fEVPfdTAdmiP_HAUNdgFua0lq7yntBtNbL0dEs204yeB2qYVCVk_VBK6zQW-IufuhN40igAWfLLFDhRfyHy4Bqff8_zJLsZmaR68Pm283beMdnccCNzge1bvk0Vr5h_NXSgo-R6eOrXj0enCvg6qEzcyQjor9nkaPZYcz4WyLUJzyhf8r8MszKaggCIgmo0KNIURcRKKF91jQMXvLXQUXhFb2tTfufow77SFiAmh3lY1HVj-5Iz05ymYoReApMUPs2d1XGRqDVTmkuheSSw&sig=Cg0ArKJSzFmzk9VrgqKg&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://news.yahoo.com/newsletters/the-yodel/%3Fncid%3D100001038
+              - img [ref=f7e6] [cursor=pointer]
+              - button [ref=f7e8] [cursor=pointer]:
+                - img [ref=f7e9] [cursor=pointer]
+  - alert [ref=e498]
+```

@@ -1,0 +1,426 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - banner [ref=e6]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - heading "Yahoo Home" [level=1] [ref=e12]
+            - link "Yahoo Home" [ref=e13] [cursor=pointer]:
+              - /url: https://www.yahoo.com/
+              - img [ref=e14] [cursor=pointer]
+              - text: Yahoo Home
+          - search [ref=e17]:
+            - generic [ref=e18]: Search query
+            - combobox "Search query" [active] [ref=e19]
+            - generic:
+              - img
+            - button "Search" [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+        - navigation [ref=e25]:
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "News" [ref=e28] [cursor=pointer]:
+                - /url: https://www.yahoo.com/
+            - listitem [ref=e29]:
+              - link "Finance" [ref=e30] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/
+            - listitem [ref=e31]:
+              - link "Sports" [ref=e32] [cursor=pointer]:
+                - /url: https://sports.yahoo.com/
+            - listitem [ref=e33]:
+              - button "More" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35] [cursor=pointer]: More
+                - img [ref=e36] [cursor=pointer]
+        - toolbar [ref=e38]:
+          - link "Check your mail" [ref=e42] [cursor=pointer]:
+            - /url: https://mail.yahoo.com/
+            - img [ref=e43] [cursor=pointer]
+            - generic [ref=e46] [cursor=pointer]: Mail
+          - link "Sign in" [ref=e50] [cursor=pointer]:
+            - /url: https://login.yahoo.com/?.lang=en-US&src=homepage&.done=https%3A%2F%2Fwww.yahoo.com%2F&pspid=2023538075&activity=ybar-signin
+  - generic:
+    - heading "Skip navigation links" [level=2] [ref=e51]
+    - list:
+      - listitem:
+        - link "Skip to main content" [ref=e52] [cursor=pointer]:
+          - /url: "#Main"
+      - listitem:
+        - link "Skip to sidebar" [ref=e53] [cursor=pointer]:
+          - /url: "#Aside"
+  - generic [ref=e55]:
+    - iframe [ref=e59]:
+      
+    - main [ref=e60]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "top stories" [level=2] [ref=e64]
+          - link "Senate confirms 48 of Trump's nominees at once after changing the chamber's rules" [ref=e69] [cursor=pointer]:
+            - /url: /news/articles/senate-confirms-48-trumps-nominees-210416446.html
+            - heading "Senate confirms 48 of Trump's nominees at once after changing the chamber's rules" [level=3] [ref=e70] [cursor=pointer]: Senate confirms 48 of Trump's nominees at once after changing the chamber's rules
+            - paragraph [ref=e73] [cursor=pointer]: The Senate has confirmed 48 of the president's nominees at once, voting for the first time under new rules to begin clearing a backlog of executive branch positions.
+            - paragraph [ref=e74] [cursor=pointer]: Read More »
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - 'link "''It was shocking'': Police cameras tracked a driver 526 times in 4 months, lawsuit says" [ref=e78] [cursor=pointer]':
+              - /url: /news/articles/police-cameras-tracked-one-driver-090000185.html
+              - 'heading "''It was shocking'': Police cameras tracked a driver 526 times in 4 months, lawsuit says" [level=3] [ref=e80] [cursor=pointer]'
+          - listitem [ref=e81]:
+            - link "Barack Obama reacts to Jimmy Kimmel's suspension over Charlie Kirk comments" [ref=e82] [cursor=pointer]:
+              - /url: /news/articles/barack-obama-reacts-jimmy-kimmel-142505971.html
+              - heading "Barack Obama reacts to Jimmy Kimmel's suspension over Charlie Kirk comments" [level=3] [ref=e84] [cursor=pointer]
+          - listitem [ref=e85]:
+            - 'link "''Hundreds of smoking guns'': Overloaded skies set stage for deadly D.C. collision" [ref=e86] [cursor=pointer]':
+              - /url: /news/articles/crush-flights-routinely-strained-national-223253098.html
+              - 'heading "''Hundreds of smoking guns'': Overloaded skies set stage for deadly D.C. collision" [level=3] [ref=e88] [cursor=pointer]'
+          - listitem [ref=e89]:
+            - link "Bella Hadid's mom shares emotional Instagram post while daughter is hospitalized" [ref=e90] [cursor=pointer]:
+              - /url: /entertainment/celebrity/article/bella-hadid-hospitalized-for-lyme-disease-after-countless-setbacks-mom-yolanda-says-in-tribute-to-warrior-model-daughter-210234271.html
+              - heading "Bella Hadid's mom shares emotional Instagram post while daughter is hospitalized" [level=3] [ref=e92] [cursor=pointer]
+          - listitem [ref=e93]:
+            - link "How the FBI director's remarks during House grilling spurred a Krispy Kreme rally" [ref=e94] [cursor=pointer]:
+              - /url: /finance/news/fbi-director-just-spurred-brief-231429882.html
+              - heading "How the FBI director's remarks during House grilling spurred a Krispy Kreme rally" [level=3] [ref=e96] [cursor=pointer]
+      - generic [ref=e97]:
+        - heading "Stories for you" [level=2] [ref=e102]
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link [ref=e107] [cursor=pointer]:
+                - /url: /finance/news/starbucks-ceo-says-coffee-chain-154153525.html
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - strong [ref=e110]: Business
+                  - generic [ref=e111]: ·
+                  - generic [ref=e112]: Fortune
+                - heading "Starbucks CEO says the coffee chain won’t lose its cash-strapped consumers because it’s on its way to being a ‘world-class customer service’ company" [level=3] [ref=e113]:
+                  - link "Starbucks CEO says the coffee chain won’t lose its cash-strapped consumers because it’s on its way to being a ‘world-class customer service’ company" [ref=e114] [cursor=pointer]:
+                    - /url: /finance/news/starbucks-ceo-says-coffee-chain-154153525.html
+                    - text: Starbucks CEO says the coffee chain won’t lose its cash-strapped consumers because it’s on its way to being a ‘world-class customer service’ company
+                - paragraph [ref=e116]: Brian Niccol said Starbucks’ quality and customer service is worth the cost of a $6 or $7 latte.
+                - generic [ref=e117]:
+                  - img [ref=e118] [cursor=pointer]
+                  - generic "139 comments" [ref=e120]: "139"
+                  - generic [ref=e121]: ·
+                  - generic [ref=e122]: 3 min read
+          - generic [ref=e125]:
+            - generic [ref=e131]:
+              - generic:
+                - figure
+                - generic [ref=e132] [cursor=pointer]:
+                  - link "Image for Taboola Advertising Unit":
+                    - /url: https://bestdates.com/land/sp/00cf4610
+                    - img "Image for Taboola Advertising Unit" [ref=e134] [cursor=pointer]
+                  - link "Bestdates in Taboola advertising section · Taboola Disclosure Dating for Senior Singles Share your feelings and emotions with someone." [ref=e136] [cursor=pointer]:
+                    - /url: https://bestdates.com/land/sp/00cf4610
+                    - generic [ref=e137] [cursor=pointer]:
+                      - generic [ref=e138] [cursor=pointer]:
+                        - link "Bestdates in Taboola advertising section" [ref=e139] [cursor=pointer]: Bestdates
+                        - generic [ref=e140] [cursor=pointer]: ·
+                        - link "Taboola Disclosure" [ref=e142] [cursor=pointer]:
+                          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-home&utm_medium=referral&utm_content=stream-d:taboola-stream-2:"
+                          - generic [ref=e143] [cursor=pointer]: Ad
+                      - link "Dating for Senior Singles" [ref=e144] [cursor=pointer]
+                      - generic [ref=e145] [cursor=pointer]: Share your feelings and emotions with someone.
+            - button "View ad options" [ref=e147] [cursor=pointer]:
+              - img [ref=e148] [cursor=pointer]
+          - listitem [ref=e150]:
+            - generic [ref=e151]:
+              - link [ref=e153] [cursor=pointer]:
+                - /url: /news/articles/man-dies-blunt-impact-injuries-215842121.html
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - strong [ref=e156]: US
+                  - generic [ref=e157]: ·
+                  - generic [ref=e158]: CNN
+                - heading "Man dies from blunt impact injuries after riding coaster at new Florida amusement park Epic Universe" [level=3] [ref=e159]:
+                  - link "Man dies from blunt impact injuries after riding coaster at new Florida amusement park Epic Universe" [ref=e160] [cursor=pointer]:
+                    - /url: /news/articles/man-dies-blunt-impact-injuries-215842121.html
+                    - text: Man dies from blunt impact injuries after riding coaster at new Florida amusement park Epic Universe
+                - paragraph [ref=e162]: A man who was unresponsive after riding a roller coaster at Universal Orlando Resort’s newest park died from blunt impact injuries, a medical examiner said Thursday.
+                - generic [ref=e163]:
+                  - img [ref=e164] [cursor=pointer]
+                  - generic "90 comments" [ref=e166]: "90"
+                  - generic [ref=e167]: ·
+                  - generic [ref=e168]: 3 min read
+          - listitem [ref=e169]:
+            - generic [ref=e170]:
+              - link [ref=e172] [cursor=pointer]:
+                - /url: /sports/article/columnist-tells-clemsons-dabo-swinney-201635827.html
+              - generic [ref=e173]:
+                - generic [ref=e174]:
+                  - strong [ref=e175]: Sports
+                  - generic [ref=e176]: ·
+                  - generic [ref=e177]: Clemson Wire
+                - heading "Columnist tells Clemson's Dabo Swinney to 'pack your bags,' coach this SEC football team" [level=3] [ref=e178]:
+                  - link "Columnist tells Clemson's Dabo Swinney to 'pack your bags,' coach this SEC football team" [ref=e179] [cursor=pointer]:
+                    - /url: /sports/article/columnist-tells-clemsons-dabo-swinney-201635827.html
+                    - text: Columnist tells Clemson's Dabo Swinney to 'pack your bags,' coach this SEC football team
+                - paragraph [ref=e181]: Veteran USA TODAY Sports columnists tells Clemson's Dabo Swinney to coach this SEC football team if he's serious about feeling unappreciated.
+                - generic [ref=e182]:
+                  - img [ref=e183] [cursor=pointer]
+                  - generic "5 comments" [ref=e185]: "5"
+                  - generic [ref=e186]: ·
+                  - generic [ref=e187]: 4 min read
+          - listitem [ref=e188]:
+            - generic [ref=e189]:
+              - link [ref=e191] [cursor=pointer]:
+                - /url: /autos/safety-and-recalls/articles/toyota-recalling-590k-vehicles-one-170539274.html
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - strong [ref=e194]: Business
+                  - generic [ref=e195]: ·
+                  - generic [ref=e196]: NJ.com
+                - 'heading "Toyota recalling 590K vehicles: If you have one, bring it to your dealer immediately" [level=3] [ref=e197]':
+                  - 'link "Toyota recalling 590K vehicles: If you have one, bring it to your dealer immediately" [ref=e198] [cursor=pointer]':
+                    - /url: /autos/safety-and-recalls/articles/toyota-recalling-590k-vehicles-one-170539274.html
+                    - text: "Toyota recalling 590K vehicles: If you have one, bring it to your dealer immediately"
+                - paragraph [ref=e200]: Toyota is recalling more than 590,000 vehicles due to this malfunction
+                - generic [ref=e201]:
+                  - img [ref=e202] [cursor=pointer]
+                  - generic "26 comments" [ref=e204]: "26"
+                  - generic [ref=e205]: ·
+                  - generic [ref=e206]: 1 min read
+          - listitem [ref=e207]:
+            - generic [ref=e208]:
+              - link [ref=e210] [cursor=pointer]:
+                - /url: /news/articles/complete-scam-woman-ditches-ac-160000208.html
+              - generic [ref=e211]:
+                - generic [ref=e212]:
+                  - strong [ref=e213]: US
+                  - generic [ref=e214]: ·
+                  - generic [ref=e215]: Daily Dot
+                - 'heading "“Complete scam”: Woman ditches AC, buys blackout curtains, unplugs everything—her bill jumps from $300 to $360" [level=3] [ref=e216]':
+                  - 'link "“Complete scam”: Woman ditches AC, buys blackout curtains, unplugs everything—her bill jumps from $300 to $360" [ref=e217] [cursor=pointer]':
+                    - /url: /news/articles/complete-scam-woman-ditches-ac-160000208.html
+                    - text: "“Complete scam”: Woman ditches AC, buys blackout curtains, unplugs everything—her bill jumps from $300 to $360"
+                - paragraph [ref=e219]: "\"I'm 7 months pregnant and we’re on the third floor,\" she told the Daily Dot."
+                - generic [ref=e220]:
+                  - img [ref=e221] [cursor=pointer]
+                  - generic "267 comments" [ref=e223]: "267"
+                  - generic [ref=e224]: ·
+                  - generic [ref=e225]: 3 min read
+          - generic [ref=e228]:
+            - generic [ref=e234]:
+              - generic:
+                - figure
+                - generic [ref=e235] [cursor=pointer]:
+                  - link "Image for Taboola Advertising Unit":
+                    - /url: https://datingrise.com/land/sp/93c1066e
+                    - img "Image for Taboola Advertising Unit" [ref=e237] [cursor=pointer]
+                  - link "DatingRise in Taboola advertising section · Taboola Disclosure Not a typical dating platform Share your feelings and emotions with someone." [ref=e239] [cursor=pointer]:
+                    - /url: https://datingrise.com/land/sp/93c1066e
+                    - generic [ref=e240] [cursor=pointer]:
+                      - generic [ref=e241] [cursor=pointer]:
+                        - link "DatingRise in Taboola advertising section" [ref=e242] [cursor=pointer]: DatingRise
+                        - generic [ref=e243] [cursor=pointer]: ·
+                        - link "Taboola Disclosure" [ref=e245] [cursor=pointer]:
+                          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-home&utm_medium=referral&utm_content=stream-d:taboola-stream-7:"
+                          - generic [ref=e246] [cursor=pointer]: Ad
+                      - link "Not a typical dating platform" [ref=e247] [cursor=pointer]
+                      - generic [ref=e248] [cursor=pointer]: Share your feelings and emotions with someone.
+            - button "View ad options" [ref=e250] [cursor=pointer]:
+              - img [ref=e251] [cursor=pointer]
+          - listitem [ref=e253]:
+            - generic [ref=e254]:
+              - link [ref=e256] [cursor=pointer]:
+                - /url: /autos/people-and-culture/articles/watch-audi-jump-open-draw-151000955.html
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - strong [ref=e259]: US
+                  - generic [ref=e260]: ·
+                  - generic [ref=e261]: Road & Track
+                - heading "Watch This Audi Jump an Open Draw Bridge in Seattle and Leave the Cops Behind" [level=3] [ref=e262]:
+                  - link "Watch This Audi Jump an Open Draw Bridge in Seattle and Leave the Cops Behind" [ref=e263] [cursor=pointer]:
+                    - /url: /autos/people-and-culture/articles/watch-audi-jump-open-draw-151000955.html
+                    - text: Watch This Audi Jump an Open Draw Bridge in Seattle and Leave the Cops Behind
+                - paragraph [ref=e265]: Seattle police officers were following an allegedly stolen Audi Q5 on September 17 when the driver broke through a barrier and jumped an open drawbridge, leaving authorities behind.
+                - generic [ref=e266]:
+                  - img [ref=e267] [cursor=pointer]
+                  - generic "277 comments" [ref=e269]: "277"
+                  - generic [ref=e270]: ·
+                  - generic [ref=e271]: 2 min read
+          - listitem [ref=e272]:
+            - generic [ref=e273]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /news/articles/french-president-wife-present-evidence-235947115.html
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - strong [ref=e278]: World
+                  - generic [ref=e279]: ·
+                  - generic [ref=e280]: The Advocate
+                - heading "French president and wife to present evidence in court that first lady is a cisgender woman" [level=3] [ref=e281]:
+                  - link "French president and wife to present evidence in court that first lady is a cisgender woman" [ref=e282] [cursor=pointer]:
+                    - /url: /news/articles/french-president-wife-present-evidence-235947115.html
+                    - text: French president and wife to present evidence in court that first lady is a cisgender woman
+                - paragraph [ref=e284]: This will come in a defamation suit Emmanuel and Brigitte Macron filed against right-wing influencer Candace Owens, who claimed Brigitte was born with male sex characteristics and is therefore transgender.
+                - generic [ref=e285]:
+                  - img [ref=e286] [cursor=pointer]
+                  - generic "343 comments" [ref=e288]: "343"
+                  - generic [ref=e289]: ·
+                  - generic [ref=e290]: 3 min read
+          - listitem [ref=e291]
+      - generic [ref=e342]:
+        - generic [ref=e343]:
+          - img [ref=e346]
+          - generic [ref=e348]: Something went wrong. Try again.
+        - generic [ref=e349]:
+          - link "Refresh Page" [ref=e350] [cursor=pointer]:
+            - /url: /
+          - button "Close" [ref=e351] [cursor=pointer]:
+            - img [ref=e353] [cursor=pointer]
+    - complementary [ref=e355]:
+      - generic [ref=e357]:
+        - generic [ref=e360]:
+          - heading "Trending Now" [level=3] [ref=e363] [cursor=pointer]
+          - generic [ref=e365]:
+            - generic [ref=e366]:
+              - link "1. Jimmy Kimmel" [ref=e368] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Jimmy+Kimmel&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e369] [cursor=pointer]: "1."
+                - generic [ref=e370] [cursor=pointer]: Jimmy Kimmel
+              - link "2. Melania Trump" [ref=e372] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Melania+Trump&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e373] [cursor=pointer]: "2."
+                - generic [ref=e374] [cursor=pointer]: Melania Trump
+              - link "3. Thursday Night Football" [ref=e376] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Thursday+Night+Football&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e377] [cursor=pointer]: "3."
+                - generic [ref=e378] [cursor=pointer]: Thursday Night Football
+              - link "4. Epic Universe Death" [ref=e380] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Epic+Universe+Death&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e381] [cursor=pointer]: "4."
+                - generic [ref=e382] [cursor=pointer]: Epic Universe Death
+              - link "5. Helicopter Crash Washington" [ref=e384] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Helicopter+Crash+Washington&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e385] [cursor=pointer]: "5."
+                - generic [ref=e386] [cursor=pointer]: Helicopter Crash Washington
+            - generic [ref=e387]:
+              - link "6. National Cheeseburger Day" [ref=e389] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=National+Cheeseburger+Day&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e390] [cursor=pointer]: "6."
+                - generic [ref=e391] [cursor=pointer]: National Cheeseburger Day
+              - link "7. Disney Boycott" [ref=e393] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Disney+Boycott&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e394] [cursor=pointer]: "7."
+                - generic [ref=e395] [cursor=pointer]: Disney Boycott
+              - link "8. America's Got Talent" [ref=e397] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=America%27s+Got+Talent&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e398] [cursor=pointer]: "8."
+                - generic [ref=e399] [cursor=pointer]: America's Got Talent
+              - link "9. D4vd" [ref=e401] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=D4vd&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e402] [cursor=pointer]: "9."
+                - generic [ref=e403] [cursor=pointer]: D4vd
+              - link "10. Pennsylvania Shooting" [ref=e405] [cursor=pointer]:
+                - /url: "https://search.yahoo.com/search?p=Pennsylvania+Shooting&fr=fp-tts&fr2=p:fp,m:tn,ct:all,kt:org,pg:1,stl:txt,b:"
+                - generic [ref=e406] [cursor=pointer]: "10."
+                - generic [ref=e407] [cursor=pointer]: Pennsylvania Shooting
+        - iframe [ref=e410]:
+          - generic [ref=f2e2]:
+            - iframe [ref=f2e5]:
+              - generic [ref=f3e3] [cursor=pointer]:
+                - img [ref=f3e16] [cursor=pointer]
+                - generic [ref=f3e23] [cursor=pointer]:
+                  - generic [ref=f3e25] [cursor=pointer]: Explore Asia
+                  - generic [ref=f3e27] [cursor=pointer]: with Freedom
+                - img [ref=f3e32] [cursor=pointer]
+            - generic [ref=f2e6]:
+              - generic:
+                - img [ref=f2e10] [cursor=pointer]
+                - button [ref=f2e12] [cursor=pointer]:
+                  - img [ref=f2e13] [cursor=pointer]
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - heading "Weather" [level=3] [ref=e416]
+            - generic [ref=e418]:
+              - heading "Surin" [level=4] [ref=e419]
+              - button "View your Locations" [ref=e421] [cursor=pointer]:
+                - img [ref=e422] [cursor=pointer]
+                - generic [ref=e424] [cursor=pointer]: View your Locations
+          - generic [ref=e425]:
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - generic [ref=e428]: Today
+                - generic [ref=e430]: Rain with a high of 86 °F (30 °C) and a 69% chance of precipitation. Winds variable at 7 to 9 mph (11.3 to 14.5 kph).
+                - generic [ref=e431]:
+                  - generic [ref=e432]:
+                    - text: "86"
+                    - generic [ref=e433]: °
+                  - generic [ref=e434]:
+                    - text: "75"
+                    - generic [ref=e435]: °
+              - generic [ref=e436]:
+                - generic [ref=e437]: Sat
+                - generic [ref=e439]: Showers today with a high of 88 °F (31.1 °C) and a low of 75 °F (23.9 °C). There is a 54% chance of precipitation.
+                - generic [ref=e440]:
+                  - generic [ref=e441]:
+                    - text: "88"
+                    - generic [ref=e442]: °
+                  - generic [ref=e443]:
+                    - text: "75"
+                    - generic [ref=e444]: °
+              - generic [ref=e445]:
+                - generic [ref=e446]: Sun
+                - generic [ref=e448]: Showers today with a high of 89 °F (31.7 °C) and a low of 76 °F (24.4 °C). There is a 54% chance of precipitation.
+                - generic [ref=e449]:
+                  - generic [ref=e450]:
+                    - text: "89"
+                    - generic [ref=e451]: °
+                  - generic [ref=e452]:
+                    - text: "76"
+                    - generic [ref=e453]: °
+              - generic [ref=e454]:
+                - generic [ref=e455]: Mon
+                - generic [ref=e457]: Thunderstorms today with a high of 85 °F (29.4 °C) and a low of 75 °F (23.9 °C). There is a 67% chance of precipitation.
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - text: "85"
+                    - generic [ref=e460]: °
+                  - generic [ref=e461]:
+                    - text: "75"
+                    - generic [ref=e462]: °
+            - link "See more AccuWeather" [ref=e463] [cursor=pointer]:
+              - /url: https://www.yahoo.com/news/weather/forecast/12756525
+              - text: See more
+              - img "AccuWeather" [ref=e465] [cursor=pointer]
+        - iframe [ref=e478]:
+          - generic [ref=f4e1]:
+            - link [ref=f4e2] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsu72NgTFNzeH7ZfTvQuhUz6eswfznqkgIhX1_hyFXvZOyKl8vTWN9Vo0FUNYpl2xES9yy2WiBumbsxV_oQ1qbtbOvWirPbZPE3G_PS9nIIRPS3XTr1jV3m8fZi4QcRL96Fc4ngSXWivJzfqOElAd5CEJKEU-uiH6ReLJasL1OI8Tx68hs0qxfR67cUheGB47eWLrVeBCAR1FVxFu9DrZ60tKo-hxvhvcVpmXOvrg-Edb8FcpBb55Joy0CUBXHBVDMj569FdYAn5nhgSZQSdFW9hjh4x7LUHTIXI06oHj7crrPoQe1jRfBGrBSjVg5kql-QLhffnW5wFhSNBsN7srEVpFP8D4PDQR-k_VI9Io1v5Kvy9eo3w-_hC34g5TvxBgmOXg2rpO7CCWcWyUqYD2yt6oA29UPnDuhaMioKkY4da00CGt-ppKGX6hWJCEg&sai=AMfl-YSII7NHqyJin1og0RrF_dJAoI1jn3PZjOaV3wjWRpKHtKv3atRJCmETJq4lH3Cqof8sjubEOFmImcA9c3BF63usTvt0-kX4JVZwUMT_mkSfEUvtB481EoWzmbb5MZ7Wx_mzIGHG4-kE0GeP_0ejFKIScCc032niN9LlS_lByc028mtPDaCGmHxw_bR3ZCk-d1KkomfeG16s16XUeOAbr-lyi-RWb8CoDJ4OwNbThqCEuz9XsMkPBsgjL5pnLYpDCYOFeVENHGdpGK2-L3V2WQiOCeMF8743&sig=Cg0ArKJSzHskMVT-BOAA&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://podcasts.apple.com/us/podcast/the-big-idea-with-elizabeth-gore/id1809808255%3Fncid%3D100002557
+            - img [ref=f4e6] [cursor=pointer]
+            - button [ref=f4e8] [cursor=pointer]:
+              - img [ref=f4e9] [cursor=pointer]
+        - generic [ref=e487]:
+          - iframe [ref=e490]:
+            - generic [ref=f5e1]:
+              - link [ref=f5e2] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstDy4WqdsEhrvl9p0yC3gkE4FEBQbppmMl8tTjbiW7XJe_JSm6XmOBQE2dK3Dn8_69pzMw8xEuKTX3YiRE8-XKvmgaStKCCcatSINR6DLkcvQWx1wPAvc2ZIKVeSjI7C8KUSVZdW1NSGG1jukK8tLzqOziIP6MutQS5vio1UTBUDCugDiQB_v0hSfGOqcYaHCVJ8NAEYuIVxl6Ef7wCgZ4bQrSp16wInh4K_MZL4hb4wltYr7lsGLcYI30GIjlMBbmxYxMJuo-zqU_Ulf7rrvXQXZYiMZORMKhx_SChf_qyqgnUVvYCAKRgoMasd8xblhiV8E9kTYMrUfbdq3saHIgXoyzKD2Z3Ca6-AUKoXlWKoumk4MbuFxhSieH_i3ltINkjrQOqo2OsdELTU9ir5nRlaIqG55C4BAcaUeF8GceWhvUn37-prIjlAu-uz-6D-VUp&sai=AMfl-YTd32yms3NljgTJdEMJHc38OE6l58Hfo5OQmBZd-Wy-mLAHpn7vDE7GX4SZxxcdvvoVbUFtmithwEqjJwYXLQ123LO6XxmroukdxnOzs96PKeqPQ4eFpsUhp5WGD6aMO9B7ooVN9BEzcoxtQOTpwIZ9WqCNgoqhB-vsTABWO8y_1nhQTJhjWmoZrivv6be6p7vza3Iu7kcpoltzArd4_rk4IArbScxrBjDlFzrQnHO05da7d85FeMjXyS6IqxHI30h0aoCf6dj0zBD-NJEdCx1Gj9kDVSEd&sig=Cg0ArKJSzPzb8WwdNV20&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://finance.yahoo.com/videos/series/opening-bid/%3Fncid%3D100002606
+              - img [ref=f5e6] [cursor=pointer]
+              - button [ref=f5e8] [cursor=pointer]:
+                - img [ref=f5e9] [cursor=pointer]
+          - iframe [ref=e493]:
+            - iframe [ref=f6e2]:
+              - generic [active] [ref=f7e1]:
+                - generic [ref=f7e4]:
+                  - generic [ref=f7e7]:
+                    - link "Click Here" [ref=f7e8] [cursor=pointer]:
+                      - /url: https://exch.quantserve.com/r?gpp=DBAA&gpp_sid=-1&a=p-1RYxePXT9bCS2&labels=_qc.clk,_click.adserver.rtb,_click.rand.107166574&rtbip=103.229.8.47&rtbdata2=EAw6FWh0dHBzOi8vd3d3LnlhaG9vLmNvbVokWC1OZHUxLThaTDFRLWttQmNfZEVyMF9ETU40RnpDVXB0Y0k9gAHu9owzugEAwAGY7wLIAcKD-v6VM9oBKGE0MmJjMWU2LTBhOGUtNGYyNy1iZDJkLTY4YzlkOTJmNWUyNF94NTGwAg7IAgDQAs7hhvv4n_fMqQHoApoB8gIOCKjmHBCt-PrZm93GiBDyAg0ImgEQ09_pkuawtaVb-AIAigMGMjAxNDIymAMAqAMAsgMEy57G_roDEgkOQb1OEnQcIhER_JjArOJlr8IDEgl-QqV8PIlQAREzdwIiTAyCkcgDoYCAhQHYA-72jDPiAw9wLTFSWXhlUFhUOWJDUzLqAwYIrAIQ-gHyAwUzMjAwMPgDAIAEmDSKBAI3N5IEHklYM01QRFNQUHJlbWl1bURJU1BXZWI1dmJXRE1BWZoEEgnrSgdZOmKIrhE-CNWNbz3nv6IEEgkOQb1OEnQcIhER_JjArOJlr6oEEgkOQb1OEnQcIhER_JjArOJlr7gE0AXQBA_yBAJUSIAFAYoFKjIwMDc1MGQ4OTA5OWI3MDY0YjJlZDJlMGQ2NTk3YzkzZjkyZWFlNzJmY5AFAZoFFSAHUNiQmbcGSy7S4NZZfJP5Lq5y_KIFJFgtTmR1MS04WkwxUS1rbUJjX2RFcjBfRE1ONEZ6Q1VwdGNJPbgFAMAF7vaMM8gFwvOpBNIFBggEEAIYCOgFBZoGFAoSCetKB1k6YoiuET4I1Y1vPee_oAYAtQbljSE5ugZYCgJUSBICMzIYACIMbmFpJTIwbXVlYW5nKgUzMjAwMDo3cmFqYW1hbmdhbGElMjB1bml2ZXJzaXR5JTIwb2YlMjB0ZWNobm9sb2d5JTIwdGhhbnlhYnVyackGqDgSwhn5jw3QBjjYBjjiBj9fZnAuZXZlbnQuQ0MgUGFpZCBDb252ZXJzaW9uLF9mcC5ldmVudC5DQyBUcmlhbCBDb252ZXJzaW9uLF9vcl_qBhFodHRwczovL2Fkb2JlLmNvbfEGAxgSwhn5jw34BgOABwCKBxIJfkKlfDyJUAERM3cCIkwMgpE&redirecturl3=https://servedby.flashtalking.com/click/7/285460;9773753;5457851;210;0/?ft_mliid=9205511&ft_mcid=9075138&gdpr=0&ft_impID=2975FDA4-227A-4490-7271-A3CE39F37747&ft_custom=XmZEJlxjE3ISYhd8Wn9CIg1lWyZbYBJpCWoVfVtrRCIKN0RwYCpDdT74IDk=&g=6471710A6CF730&random=902461.2392212861&ft_width=300&ft_height=250&url=https://www.adobe.com/th_th/creativecloud.html?sdid=PC1PQ9XF&mv=display&mv2=display
+                      - img "Click Here" [ref=f7e9] [cursor=pointer]
+                    - link [ref=f7e11] [cursor=pointer]:
+                      - /url: https://www.flashtalking.com/consumer-privacy
+                      - img [ref=f7e12] [cursor=pointer]
+                    - link "Privacy Notification" [ref=f7e14] [cursor=pointer]:
+                      - /url: https://www.flashtalking.com/consumer-privacy
+                      - img [ref=f7e15] [cursor=pointer]
+                    - link "Privacy Notification" [ref=f7e17] [cursor=pointer]:
+                      - /url: https://www.flashtalking.com/consumer-privacy
+                      - img [ref=f7e18] [cursor=pointer]
+                  - link [ref=f7e19] [cursor=pointer]:
+                    - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=107166574;labels=_click.creative.iab,_qc.iab.clk.p-1RYxePXT9bCS2.0.0;redirecturl2=http://www.quantcast.com/adchoices
+                    - img [ref=f7e21] [cursor=pointer]
+                - iframe
+  - alert [ref=e498]
+```
