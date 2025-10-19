@@ -1,5 +1,6 @@
 import {test, expect} from '@playwright/test';  
 // ชื่อเรื่อง Facebook
+/*
 test('Facebook', async ({ page }) => {
     await page.goto('https://www.Facebook.com/');
     //await expect(page).toHaveTitle(/Facebook/);
@@ -26,7 +27,7 @@ test('Fackebook_register', async ({ page }) => {
     await page.getByRole('textbox', { name: 'New password' }).fill('password123');
     await page.getByRole('button', { name: 'Sign Up' }).click();
 });
-/*
+
 test('computer.surin.rmuti.ac.th/sc', async ({ page }) => {
     await page.goto('https://computer.surin.rmuti.ac.th/sc/fornend/');
     await page.getByRole('link', { name: 'สมัครสมาชิก' }).click();

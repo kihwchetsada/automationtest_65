@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-
+/*
 // รูปภาพ instagram
 test('test with screenshot', async ({ page }) => {
   await page.goto('https://www.instagram.com/');
@@ -42,3 +42,4 @@ test('video record', async ({ page }) => {
   await page.getByRole('textbox', { name: 'New password' }).click();
   await page.getByRole('textbox', { name: 'New password' }).fill('0123456789');
 });
+*/

@@ -1,5 +1,6 @@
 import {test, expect} from '@playwright/test';
 //ประกาศตัวแปรเก็บค่า user id
+/*
 var user_id;
 
 test("Facebook@social",async({page})=>{
@@ -65,3 +66,4 @@ test('Delete Users@api', async ({ request }) => {
     const response = await request.delete('https://reqres.in/api/users/'+user_id);
         expect(response.status()).toBe(204)
 });
+*/

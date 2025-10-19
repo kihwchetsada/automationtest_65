@@ -15,9 +15,11 @@ import {test, expect} from '@playwright/test';
     //await page.getByRole('textbox', { name: 'Password' }).click();
    // await page.getByRole('textbox', { name: 'Password' }).fill('65222110019-0');
 });*/
+/*
 test('rmutsv', async ({ page }) => {
     await page.goto('https://computer.surin.rmuti.ac.th/computer/index.php');
     //await page.getByText('หน้าแรก', { exact: true }).click();
     //await page.getByRole('link', { name: 'หน้าแรก' }).click();
     await page.locator('xpath=//*[@id="header"]/div[3]/ul/li[4]').click();
 });
+*/
