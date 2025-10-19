@@ -1,0 +1,70 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - button "Logoวข.สุรินทร์" [ref=e8] [cursor=pointer]:
+        - img "Logo" [ref=e9] [cursor=pointer]
+        - generic [ref=e11] [cursor=pointer]: วข.สุรินทร์
+      - list [ref=e14]:
+        - tab "บริการทั่วไป" [ref=e15] [cursor=pointer]:
+          - img [ref=e17] [cursor=pointer]
+          - generic [ref=e22] [cursor=pointer]: บริการทั่วไป
+    - tabpanel [ref=e28]:
+      - generic [ref=e30]:
+        - link "ประชาสัมพันธ์" [ref=e32] [cursor=pointer]:
+          - /url: /AppSR/announcement
+          - img [ref=e35] [cursor=pointer]
+          - generic [ref=e40] [cursor=pointer]: ประชาสัมพันธ์
+        - generic [ref=e43]: บริการทั่วไป
+        - link "โปรแกรมวิชาที่เปิดสอน" [ref=e45] [cursor=pointer]:
+          - /url: /AppSR/announce/general/sc-genl001
+          - generic [ref=e48] [cursor=pointer]: โปรแกรมวิชาที่เปิดสอน
+        - link "รายวิชาที่เปิดสอน" [ref=e50] [cursor=pointer]:
+          - /url: /AppSR/announce/general/sc-genl002
+          - generic [ref=e53] [cursor=pointer]: รายวิชาที่เปิดสอน
+        - link "ปฏิทินการศึกษา" [ref=e55] [cursor=pointer]:
+          - /url: /AppSR/announce/schedules/sc-sche001
+          - generic [ref=e58] [cursor=pointer]: ปฏิทินการศึกษา
+    - button [ref=e59] [cursor=pointer]:
+      - img [ref=e61] [cursor=pointer]
+  - generic [ref=e64]:
+    - generic [ref=e68]:
+      - button " สร้างบัญชีผู้ใช้ (Register)" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71] [cursor=pointer]: 
+        - generic [ref=e72] [cursor=pointer]: สร้างบัญชีผู้ใช้ (Register)
+      - generic "เข้าสู่ระบบ" [ref=e73] [cursor=pointer]:
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75] [cursor=pointer]: 
+          - generic: 
+        - generic [ref=e76] [cursor=pointer]: เข้าสู่ระบบ (Login)
+    - generic [ref=e77]:
+      - heading "ข่าวประชาสัมพันธ์และประกาศ" [level=2] [ref=e78]:
+        - generic [ref=e79]: ข่าวประชาสัมพันธ์และประกาศ
+      - generic [ref=e80]:
+        - generic [ref=e81] [cursor=pointer]: ประชาสัมพันธ์การชำระเงิน
+        - generic [ref=e82]:
+          - paragraph [ref=e83]:
+            - strong [ref=e85]:
+              - generic [ref=e86]: แจ้งประชาสัมพันธ์การชำระเงินโดยโอนผ่านระบบ กรุงไทย NEXT
+            - strong [ref=e88]:
+              - link "คลิ๊ก" [ref=e90] [cursor=pointer]:
+                - /url: http://fmt.surin.rmuti.ac.th/payment/
+          - paragraph [ref=e91]:
+            - link "คู่มือการใช้งานระบบโอนเงิน" [ref=e92] [cursor=pointer]:
+              - /url: https://surin-ess.rmuti.ac.th/Rmuti/Registration/Upload/File/paymentv2023.pdf
+              - strong [ref=e94] [cursor=pointer]:
+                - generic [ref=e95] [cursor=pointer]: คู่มือการใช้งานระบบโอนเงิน
+      - generic [ref=e96]:
+        - generic [ref=e97] [cursor=pointer]: กำหนดการลงทะเบียนเรียนและแจ้งสำเร็จการศึกษา 66
+        - generic [ref=e98]:
+          - paragraph [ref=e99]
+          - paragraph [ref=e100]
+          - paragraph [ref=e101]: "-- New Item --"
+      - generic [ref=e102]:
+        - generic [ref=e103] [cursor=pointer]: ปฏิทินการศึกษา ประจำปีการศึกษา 2567
+        - generic [ref=e104]:
+          - paragraph [ref=e105]: "--"
+          - paragraph [ref=e106]: New Item -
+```

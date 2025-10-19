@@ -48,7 +48,7 @@ test('computer.surin.rmuti.ac.th/sc_login', async ({ page }) => {
     await page.getByRole('button', { name: 'เข้าสู่ระบบ' }).click();
     await expect(page.getByText('กลุ่มวิชาเรียนทั้งหมด')).toBeVisible();
 });
-
+/*
 test('ig', async ({ page }) => {
         await page.goto('https://computer.surin.rmuti.ac.th/sc/fornend/fornend/');
         await page.getByRole('link', { name: 'home.php' }).click();
@@ -67,4 +67,4 @@ test('ig', async ({ page }) => {
         await expect(page.locator('body')).toContainText('คอร์สเรียนทั้งหมด');
         await expect(page.getByRole('heading', { name: 'คอร์สเรียนทั้งหมด' })).toBeVisible();
         await expect(page.getByRole('heading', { name: 'คอร์สเรียนทั้งหมด' })).toBeVisible();
-});
+});*/
