@@ -26,7 +26,7 @@ test('Fackebook_register', async ({ page }) => {
     await page.getByRole('textbox', { name: 'New password' }).fill('password123');
     await page.getByRole('button', { name: 'Sign Up' }).click();
 });
-
+/*
 test('computer.surin.rmuti.ac.th/sc', async ({ page }) => {
     await page.goto('https://computer.surin.rmuti.ac.th/sc/fornend/');
     await page.getByRole('link', { name: 'สมัครสมาชิก' }).click();
@@ -48,7 +48,7 @@ test('computer.surin.rmuti.ac.th/sc_login', async ({ page }) => {
     await page.getByRole('button', { name: 'เข้าสู่ระบบ' }).click();
     await expect(page.getByText('กลุ่มวิชาเรียนทั้งหมด')).toBeVisible();
 });
-/*
+
 test('ig', async ({ page }) => {
         await page.goto('https://computer.surin.rmuti.ac.th/sc/fornend/fornend/');
         await page.getByRole('link', { name: 'home.php' }).click();

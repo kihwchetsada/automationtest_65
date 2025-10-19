@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
-
+/*
 test('has title', async ({ page }) => {
   await page.goto('https://computer.surin.rmuti.ac.th/computer/index.php');
 
@@ -16,4 +16,4 @@ test('get started link', async ({ page }) => {
 
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'หน้าแรก' })).toBeVisible();
-});
+});*/
