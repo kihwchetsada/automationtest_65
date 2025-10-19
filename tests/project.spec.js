@@ -1,4 +1,5 @@
 import {test, expect} from '@playwright/test';
+test.use({ ignoreHTTPSErrors: true });
 
 test.describe("project test",()=>{ 
 
