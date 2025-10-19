@@ -199,5 +199,135 @@ test.describe("project test",()=>{
         await page.getByRole('textbox', { name: 'ชื่อทีม' }).fill('The Champions');
     });
 
-    
+    test("register_team case 5",async({page})=>{ //ทดสอบการเข้าสู่หน้าสมัครทีม แล้วกดปุ่มยอมรับและดำเดินการต่อ แล้วเลือกรายการแข่งขัน กรอกชื่อทีม และกรอกชื่อผู้ควบคุมทีม
+        await page.goto('https://computer.surin.rmuti.ac.th/certificate/project/index.php');
+        await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).fill('player05');
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('!Th123456');
+        await page.getByRole('button', { name: 'เข้าสู่ระบบ ' }).click();
+        await page.getByRole('link', { name: 'คลิกที่นี่เพื่อสมัคร' }).click();
+        await page.getByRole('button', { name: 'ยอมรับและดำเนินการต่อ' }).click();
+        await page.selectOption('select#tournament_id', { label: 'รุ่นอายุไม่เกิน 18 ปี' });
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).fill('The Champions');
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).fill('Mr.G');
+    });
+
+    test("register_team case 6",async({page})=>{ //ทดสอบการเข้าสู่หน้าสมัครทีม แล้วกดปุ่มยอมรับและดำเดินการต่อ แล้วเลือกรายการแข่งขัน กรอกชื่อทีม กรอกชื่อผู้ควบคุมทีม และกรอกเบอร์โทรผู้ควบคุมทีม
+        await page.goto('https://computer.surin.rmuti.ac.th/certificate/project/index.php');
+        await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).fill('player05');
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('!Th123456');
+        await page.getByRole('button', { name: 'เข้าสู่ระบบ ' }).click();
+        await page.getByRole('link', { name: 'คลิกที่นี่เพื่อสมัคร' }).click();
+        await page.getByRole('button', { name: 'ยอมรับและดำเนินการต่อ' }).click();
+        await page.selectOption('select#tournament_id', { label: 'รุ่นอายุไม่เกิน 18 ปี' });
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).fill('The Champions');
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).fill('Mr.G');
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).fill('0123456789');
+    });
+
+    test("register_team case 7",async({page})=>{ //ทดสอบการเข้าสู่หน้าสมัครทีม แล้วกดปุ่มยอมรับและดำเดินการต่อ แล้วเลือกรายการแข่งขัน กรอกชื่อทีม กรอกชื่อผู้ควบคุมทีม กรอกเบอร์โทรผู้ควบคุมทีม และกรอกสังกัด/โรงเรียน
+        await page.goto('https://computer.surin.rmuti.ac.th/certificate/project/index.php');
+        await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).fill('player05');
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('!Th123456');
+        await page.getByRole('button', { name: 'เข้าสู่ระบบ ' }).click();
+        await page.getByRole('link', { name: 'คลิกที่นี่เพื่อสมัคร' }).click();
+        await page.getByRole('button', { name: 'ยอมรับและดำเนินการต่อ' }).click();
+        await page.selectOption('select#tournament_id', { label: 'รุ่นอายุไม่เกิน 18 ปี' });
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).fill('The Champions');
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).fill('Mr.G');
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).fill('0123456789');
+        await page.getByRole('textbox', { name: 'สังกัด/โรงเรียน'}).click();
+        await page.getByRole('textbox', { name: 'สังกัด/โรงเรียน'}).fill('Surin Rmuti');
+    });
+
+    test("register_team case 8",async({page})=>{ //ทดสอบการเข้าสู่หน้าสมัครทีม แล้วกดปุ่มยอมรับและดำเดินการต่อ แล้วเลือกรายการแข่งขัน กรอกชื่อทีม กรอกชื่อผู้ควบคุมทีม กรอกเบอร์โทรผู้ควบคุมทีม และกรอกสังกัด/โรงเรียน และกรอกชื่อ-นามสกุลคนที่ 1
+        await page.goto('https://computer.surin.rmuti.ac.th/certificate/project/index.php');
+        await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).fill('player05');
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('!Th123456');
+        await page.getByRole('button', { name: 'เข้าสู่ระบบ ' }).click();
+        await page.getByRole('link', { name: 'คลิกที่นี่เพื่อสมัคร' }).click();
+        await page.getByRole('button', { name: 'ยอมรับและดำเนินการต่อ' }).click();
+        await page.selectOption('select#tournament_id', { label: 'รุ่นอายุไม่เกิน 18 ปี' });
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).fill('The Champions');
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).fill('Mr.G');
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).fill('0123456789');
+        await page.getByRole('textbox', { name: 'สังกัด/โรงเรียน'}).click();
+        await page.getByRole('textbox', { name: 'สังกัด/โรงเรียน'}).fill('Surin Rmuti');
+        await page.getByRole('textbox', { name: 'ชื่อ-นามสกุล' }).nth(1).click();
+        await page.getByRole('textbox', { name: 'ชื่อ-นามสกุล' }).nth(1).fill('ฤทธินันท์ ใจดี');
+    });
+
+    test("register_team case 9",async({page})=>{ //ทดสอบการเข้าสู่หน้าสมัครทีม แล้วกดปุ่มยอมรับและดำเดินการต่อ แล้วเลือกรายการแข่งขัน กรอกชื่อทีม กรอกชื่อผู้ควบคุมทีม กรอกเบอร์โทรผู้ควบคุมทีม และกรอกสังกัด/โรงเรียน กรอกชื่อ-นามสกุลคนที่ 1 และกรอกชื่อในเกมคนที่ 1
+        await page.goto('https://computer.surin.rmuti.ac.th/certificate/project/index.php');
+        await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).fill('player05');
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('!Th123456');
+        await page.getByRole('button', { name: 'เข้าสู่ระบบ ' }).click();
+        await page.getByRole('link', { name: 'คลิกที่นี่เพื่อสมัคร' }).click();
+        await page.getByRole('button', { name: 'ยอมรับและดำเนินการต่อ' }).click();
+        await page.selectOption('select#tournament_id', { label: 'รุ่นอายุไม่เกิน 18 ปี' });
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).fill('The Champions');
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).fill('Mr.G');
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).fill('0123456789');
+        await page.getByRole('textbox', { name: 'สังกัด/โรงเรียน'}).click();
+        await page.getByRole('textbox', { name: 'สังกัด/โรงเรียน'}).fill('Surin Rmuti');
+        await page.getByRole('textbox', { name: 'ชื่อ-นามสกุล' }).nth(1).click();
+        await page.getByRole('textbox', { name: 'ชื่อ-นามสกุล' }).nth(1).fill('ฤทธินันท์ ใจดี');
+        await page.getByRole('textbox', { name: 'ชื่อในเกม' }).nth(1).click();
+        await page.getByRole('textbox', { name: 'ชื่อในเกม' }).nth(1).fill('RitTee');
+    });
+
+    test("register_team case 10",async({page})=>{ //ทดสอบการเข้าสู่หน้าสมัครทีม แล้วกดปุ่มยอมรับและดำเดินการต่อ แล้วเลือกรายการแข่งขัน กรอกชื่อทีม กรอกชื่อผู้ควบคุมทีม กรอกเบอร์โทรผู้ควบคุมทีม และกรอกสังกัด/โรงเรียน กรอกชื่อ-นามสกุลคนที่ 1 กรอกชื่อในเกมคนที่ 1 และกรอกอายุคนที่ 1
+        await page.goto('https://computer.surin.rmuti.ac.th/certificate/project/index.php');
+        await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).fill('player05');
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
+        await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('!Th123456');
+        await page.getByRole('button', { name: 'เข้าสู่ระบบ ' }).click();
+        await page.getByRole('link', { name: 'คลิกที่นี่เพื่อสมัคร' }).click();
+        await page.getByRole('button', { name: 'ยอมรับและดำเนินการต่อ' }).click();
+        await page.selectOption('select#tournament_id', { label: 'รุ่นอายุไม่เกิน 18 ปี' });
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).click();
+        await page.getByRole('textbox', { name: 'ชื่อทีม' }).fill('The Champions');
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'ชื่อผู้ควบคุมทีม'}).fill('Mr.G');
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).click();
+        await page.getByRole('textbox', { name: 'เบอร์โทรผู้ควบคุมทีม'}).fill('0123456789');
+        await page.getByRole('textbox', { name: 'สังกัด/โรงเรียน'}).click();
+        await page.getByRole('textbox', { name: 'สังกัด/โรงเรียน'}).fill('Surin Rmuti');
+        await page.getByRole('textbox', { name: 'ชื่อ-นามสกุล' }).nth(1).click();
+        await page.getByRole('textbox', { name: 'ชื่อ-นามสกุล' }).nth(1).fill('ฤทธินันท์ ใจดี');
+        await page.getByRole('textbox', { name: 'ชื่อในเกม' }).nth(1).click();
+        await page.getByRole('textbox', { name: 'ชื่อในเกม' }).nth(1).fill('RitTee');
+        await page.getByRole('spinbutton', { name: 'อายุ' }).nth(1).click();
+        await page.getByRole('spinbutton', { name: 'อายุ' }).nth(1).fill('17');
+    });
 });
