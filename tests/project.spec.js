@@ -139,7 +139,7 @@ test.describe("project test",()=>{
         await page.getByRole('link', { name: 'สมัครทีม' }).first().click();
         await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).click();
         await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).fill('test101');
-        await page.getByRole('textbox', { name: 'อีเมล' }).click();
+        await page.getByRole('textbox', { name: 'อีเมล' }).click();                                  //13
         await page.getByRole('textbox', { name: 'อีเมล' }).fill('test101@gmail.com');
         await page.getByRole('textbox', { name: 'รหัสผ่าน' }).nth(1).click();
         await page.getByRole('textbox', { name: 'รหัสผ่าน' }).nth(1).fill('!Th123456');
